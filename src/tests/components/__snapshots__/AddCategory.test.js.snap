@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on AddCategory Component should render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    placeholder="Shingeki no Kyojin"
+    type="text"
+    value=""
+  />
+</form>
+`;

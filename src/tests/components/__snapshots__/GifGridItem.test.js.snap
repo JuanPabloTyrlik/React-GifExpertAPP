@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on GifGridItem Component should render <GifGridItem /> correctly 1`] = `
+<div
+  className="card animate__animated animate__fadeIn animate__delay-2s"
+>
+  <img
+    alt="Levi"
+    src="https://media0.giphy.com/media/GISoZGkcy57H2/giphy.gif?cid=f85e1ea97vx4zjbx1lgr9f048qg4j9cy0h0zosdlmzp48l5r&rid=giphy.gif"
+  />
+  <p>
+    Levi
+  </p>
+</div>
+`;
