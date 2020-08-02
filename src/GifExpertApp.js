@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
+import PropTypes from 'prop-types';
 
-const GifExpertApp = () => {
-    const [categories, setCategories] = useState(['Shingeki no Kyojin']);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+    const [categories, setCategories] = useState(defaultCategories);
     // const [categories, setCategories] = useState([
     //     'Shingeki no Kyojin',
     //     'Kimetsu no Yaiba',
@@ -24,5 +25,9 @@ const GifExpertApp = () => {
         </>
     );
 };
+
+GifExpertApp.propTypes = {
+    defaultCategories: PropTypes.array
+}
 
 export default GifExpertApp;
